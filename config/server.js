@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT;
+const port = 3000;
 const cors = require('cors');
 const userRoute = require('../app/routes/userRoute');
 const bookingRoute = require('../app/routes/bookingRoute');
@@ -21,4 +21,4 @@ app.use('/tempatduduks', tempatdudukRoute);
 
 app.get('/', (req, res) => res.send('Welcome to Tugas 2 MCI'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`App listening on port ${port}!`));
