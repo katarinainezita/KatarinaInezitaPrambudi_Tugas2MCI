@@ -39,11 +39,11 @@ d. Tabel Seminar memiliki relasi one to many dengan tabel Tempat Duduk
 
 Berikut CDM dari kelima tabel :
 
-(SS CDM)
+![App Screenshot](https://github.com/katarinainezita/KatarinaInezitaPrambudi_Tugas2MCI/blob/main/img/CDM.png)
 
 Berikut PDM dari kelima tabel :
 
-(SS PDM)
+![App Screenshot](https://github.com/katarinainezita/KatarinaInezitaPrambudi_Tugas2MCI/blob/main/img/PDM.png)
 
 ### 2. Implementasi CRUD API
 Setelah memahami kebutuhan sistem, kamu akan diminta untuk mengembangkan API menggunakan framework ExpressJS untuk melakukan operasi CRUD pada data seminar.
